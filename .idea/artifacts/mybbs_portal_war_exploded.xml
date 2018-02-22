@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mybbs-portal:war exploded">
+    <output-path>$PROJECT_DIR$/mybbs-portal/target/mybbs-portal</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mybbs-portal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="mybbs-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mybbs-interface" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/mybbs-portal/target/mybbs-portal/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mybbs-portal/web/Web" />
+    </root>
+  </artifact>
+</component>

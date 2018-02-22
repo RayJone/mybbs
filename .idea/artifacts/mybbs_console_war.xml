@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mybbs-console:war">
+    <output-path>$PROJECT_DIR$/mybbs-console/target</output-path>
+    <root id="archive" name="mybbs-console.war">
+      <element id="artifact" artifact-name="mybbs-console:war exploded" />
+    </root>
+  </artifact>
+</component>
